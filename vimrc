@@ -32,3 +32,4 @@ set laststatus=2
 " " filetype indent on
 highlight LineNr term=bold cterm=NONE ctermfg=Grey ctermbg=Black 
 " " NOT NECESSARY -->  gui=NONE guifg=DarkGrey guibg=NONE
+autocmd BufWritePost *.tex !pdflatex <afile>
