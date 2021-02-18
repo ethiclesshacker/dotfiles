@@ -6,7 +6,7 @@ prompt adam1
 
 setopt histignorealldups sharehistory
 
-# Use emacs keybindings even if our EDITOR is set to vi
+# Use vim keybindings
 bindkey -v
 
 # Keep 1000 lines of history within the shell and save it to ~/.zsh_history:
@@ -35,6 +35,12 @@ zstyle ':completion:*' verbose true
 
 zstyle ':completion:*:*:kill:*:processes' list-colors '=(#b) #([0-9]#)*=0=01;31'
 zstyle ':completion:*:kill:*' command 'ps -u $USER -o pid,%cpu,tty,cputime,cmd'
+
+# Adding Flutter to PATH
+export PATH="$PATH:$HOME/snap/flutter/common/flutter/bin"
+
+# Loading aliases from common file for bash and zsh
+. ~/.aliases
 
 BLUE="\033[1;36m"
 STOP="\e[0m"

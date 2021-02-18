@@ -122,3 +122,4 @@ STOP="\e[0m"
 printf "${BLUE}"
 figlet -c avs.dev
 printf "${STOP}"
+source "$HOME/.cargo/env"

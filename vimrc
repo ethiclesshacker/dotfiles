@@ -13,7 +13,6 @@ set showmode
 set showmatch
 set incsearch
 set hlsearch
-map <Space> :noh<cr>
 set ignorecase
 set smartcase
 set ruler
@@ -32,4 +31,29 @@ set laststatus=2
 " " filetype indent on
 highlight LineNr term=bold cterm=NONE ctermfg=Grey ctermbg=Black 
 " " NOT NECESSARY -->  gui=NONE guifg=DarkGrey guibg=NONE
+map <Space> :noh<cr>
 autocmd BufWritePost *.tex !pdflatex <afile>
+
+call plug#begin()
+Plug 'preservim/NERDTree'
+Plug 'preservim/nerdcommenter'
+Plug 'frazrepo/vim-rainbow'
+Plug 'tpope/vim-surround'
+Plug 'mattn/emmet-vim'
+Plug 'terryma/vim-multiple-cursors'
+call plug#end()
+
+let g:NERDSpaceDelims = 1
+let g:NERDDefaultAlign = 'left'
+let g:NERDCommentEmptyLines = 1
+
+vnoremap <C-c> :call NERDComment('x','toggle')<CR>
+nnoremap <C-b> :NERDTreeToggle<CR>
+
+inoremap ' '' <ESC>hi
+inoremap " "" <ESC>hi
+inoremap ( () <ESC>hi
+inoremap { {} <ESC>hi
+inoremap [ [] <ESC>hi
+inoremap ` `` <ESC>hi
+ 
