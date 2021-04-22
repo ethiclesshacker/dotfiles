@@ -1,0 +1,18 @@
+2021/04/22-00:01:30.861 45ab Reusing MANIFEST /home/aadityavs/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/04/22-00:01:30.862 45ab Recovering log #131
+2021/04/22-00:01:30.885 45ab Reusing old log /home/aadityavs/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000131.log 
+2021/04/22-14:55:45.227 6e52 Level-0 table #139: started
+2021/04/22-14:55:45.253 6e52 Level-0 table #139: 1333283 bytes OK
+2021/04/22-14:55:45.256 6e52 Delete type=0 #131
+2021/04/22-14:56:16.222 6d36 Compacting 1@1 + 4@2 files
+2021/04/22-14:56:16.298 6d36 Generated table #140@1: 35939 keys, 2253475 bytes
+2021/04/22-14:56:16.333 6d36 Generated table #141@1: 32247 keys, 2260010 bytes
+2021/04/22-14:56:16.370 6d36 Generated table #142@1: 65450 keys, 2240008 bytes
+2021/04/22-14:56:16.393 6d36 Generated table #143@1: 27189 keys, 1597838 bytes
+2021/04/22-14:56:16.393 6d36 Compacted 1@1 + 4@2 files => 8351331 bytes
+2021/04/22-14:56:16.395 6d36 compacted to: files[ 0 0 4 0 0 0 0 ]
+2021/04/22-14:56:16.395 6d36 Delete type=2 #135
+2021/04/22-14:56:16.395 6d36 Delete type=2 #134
+2021/04/22-14:56:16.395 6d36 Delete type=2 #133
+2021/04/22-14:56:16.395 6d36 Delete type=2 #139
+2021/04/22-14:56:16.395 6d36 Delete type=2 #136

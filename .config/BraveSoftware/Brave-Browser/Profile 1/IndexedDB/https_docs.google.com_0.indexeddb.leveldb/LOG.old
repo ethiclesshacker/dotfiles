@@ -1,0 +1,6 @@
+2021/04/19-11:57:34.973 125b Creating DB /home/aadityavs/.config/BraveSoftware/Brave-Browser/Profile 1/IndexedDB/https_docs.google.com_0.indexeddb.leveldb since it was missing.
+2021/04/19-11:57:34.990 125b Reusing MANIFEST /home/aadityavs/.config/BraveSoftware/Brave-Browser/Profile 1/IndexedDB/https_docs.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/04/19-11:57:37.391 10ff Level-0 table #5: started
+2021/04/19-11:57:37.405 10ff Level-0 table #5: 7297 bytes OK
+2021/04/19-11:57:37.407 10ff Delete type=0 #3
+2021/04/19-11:57:37.407 10ff Manual compaction at level-0 from (begin) .. (end); will stop at (end)

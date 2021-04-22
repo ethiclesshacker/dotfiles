@@ -1,0 +1,15 @@
+2021/04/22-12:47:39.590 54ee Reusing MANIFEST /home/aadityavs/.config/BraveSoftware/Brave-Browser/Profile 1/IndexedDB/https_meet.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/04/22-12:47:39.590 54ee Recovering log #23
+2021/04/22-12:47:39.590 54ee Reusing old log /home/aadityavs/.config/BraveSoftware/Brave-Browser/Profile 1/IndexedDB/https_meet.google.com_0.indexeddb.leveldb/000023.log 
+2021/04/22-12:47:41.856 5912 Level-0 table #28: started
+2021/04/22-12:47:41.862 5912 Level-0 table #28: 759 bytes OK
+2021/04/22-12:47:41.863 5912 Delete type=0 #23
+2021/04/22-12:47:41.864 5912 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/04/22-12:47:41.864 5912 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01\x02\x01\x13\x00c\x00l\x00i\x00e\x00n\x00t\x00R\x00e\x00g\x00i\x00s\x00t\x00r\x00a\x00t\x00i\x00o\x00n\x00s' @ 350 : 1
+2021/04/22-12:47:41.864 5912 Compacting 1@1 + 1@2 files
+2021/04/22-12:47:41.865 5912 Generated table #29@1: 20 keys, 669 bytes
+2021/04/22-12:47:41.866 5912 Compacted 1@1 + 1@2 files => 669 bytes
+2021/04/22-12:47:41.867 5912 compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/04/22-12:47:41.867 5912 Delete type=2 #28
+2021/04/22-12:47:41.867 5912 Delete type=2 #25
+2021/04/22-12:47:41.868 5912 Manual compaction at level-1 from '\x00\x01\x01\x02\x01\x13\x00c\x00l\x00i\x00e\x00n\x00t\x00R\x00e\x00g\x00i\x00s\x00t\x00r\x00a\x00t\x00i\x00o\x00n\x00s' @ 350 : 1 .. (end); will stop at (end)

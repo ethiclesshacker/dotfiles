@@ -1,0 +1,47 @@
+{
+   "checksum": "d6a0315e3b6162658b5e604bbb495171",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13262367705976874",
+            "guid": "23e9c2bd-c1a3-4bea-a1ff-9a921227cbc2",
+            "id": "5",
+            "name": "IPACCT | User information portal",
+            "type": "url",
+            "url": "http://10.254.254.71/0/up/"
+         } ],
+         "date_added": "13262159531634854",
+         "date_modified": "13263073591897241",
+         "guid": "00000000-0000-4000-a000-000000000002",
+         "id": "1",
+         "name": "Bookmarks bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [ {
+            "date_added": "13263073591897241",
+            "guid": "8d2de726-2624-4712-ae6c-0662cbf538af",
+            "id": "7",
+            "name": "TeeShopper - Design and Sell T-Shirts | Print On Demand",
+            "type": "url",
+            "url": "https://teeshopper.in/"
+         } ],
+         "date_added": "13262159531634857",
+         "date_modified": "13263073604980660",
+         "guid": "00000000-0000-4000-a000-000000000003",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13262159531634857",
+         "date_modified": "0",
+         "guid": "00000000-0000-4000-a000-000000000004",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}

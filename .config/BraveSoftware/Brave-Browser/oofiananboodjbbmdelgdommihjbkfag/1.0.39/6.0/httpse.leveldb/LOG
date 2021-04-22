@@ -1,0 +1,7 @@
+2021/04/22-23:56:39.207 a0c Recovering log #3
+2021/04/22-23:56:39.367 a0c Level-0 table #5: started
+2021/04/22-23:56:39.442 a0c Level-0 table #5: 2784458 bytes OK
+2021/04/22-23:56:39.450 a0c Recovering log #6
+2021/04/22-23:56:39.471 a0c Delete type=0 #6
+2021/04/22-23:56:39.471 a0c Delete type=3 #2
+2021/04/22-23:56:39.471 a0c Delete type=0 #3

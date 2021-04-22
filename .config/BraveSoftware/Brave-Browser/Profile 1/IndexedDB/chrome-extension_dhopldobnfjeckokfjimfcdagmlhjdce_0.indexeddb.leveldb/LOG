@@ -1,0 +1,6 @@
+2021/04/22-12:56:46.793 5a29 Creating DB /home/aadityavs/.config/BraveSoftware/Brave-Browser/Profile 1/IndexedDB/chrome-extension_dhopldobnfjeckokfjimfcdagmlhjdce_0.indexeddb.leveldb since it was missing.
+2021/04/22-12:56:46.808 5a29 Reusing MANIFEST /home/aadityavs/.config/BraveSoftware/Brave-Browser/Profile 1/IndexedDB/chrome-extension_dhopldobnfjeckokfjimfcdagmlhjdce_0.indexeddb.leveldb/MANIFEST-000001
+2021/04/22-12:57:35.679 5912 Level-0 table #5: started
+2021/04/22-12:57:35.683 5912 Level-0 table #5: 2450 bytes OK
+2021/04/22-12:57:35.685 5912 Delete type=0 #3
+2021/04/22-12:57:35.685 5912 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

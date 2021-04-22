@@ -1,0 +1,15 @@
+2021/04/10-13:50:33.884 21b1 Reusing MANIFEST /home/aadityavs/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.icicilombard.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/04/10-13:50:33.884 21b1 Recovering log #32
+2021/04/10-13:50:33.884 21b1 Reusing old log /home/aadityavs/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.icicilombard.com_0.indexeddb.leveldb/000032.log 
+2021/04/10-13:51:12.387 230f Level-0 table #37: started
+2021/04/10-13:51:12.401 230f Level-0 table #37: 840 bytes OK
+2021/04/10-13:51:12.403 230f Delete type=0 #32
+2021/04/10-13:51:12.403 230f Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/04/10-13:51:12.404 230f Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01\x02\x01\x05\x00s\x00t\x00a\x00t\x00e' @ 110 : 1
+2021/04/10-13:51:12.404 230f Compacting 1@1 + 1@2 files
+2021/04/10-13:51:12.406 230f Generated table #38@1: 20 keys, 924 bytes
+2021/04/10-13:51:12.406 230f Compacted 1@1 + 1@2 files => 924 bytes
+2021/04/10-13:51:12.408 230f compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/04/10-13:51:12.408 230f Delete type=2 #37
+2021/04/10-13:51:12.408 230f Delete type=2 #34
+2021/04/10-13:51:12.409 230f Manual compaction at level-1 from '\x00\x01\x01\x02\x01\x05\x00s\x00t\x00a\x00t\x00e' @ 110 : 1 .. (end); will stop at (end)
