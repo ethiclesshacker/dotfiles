@@ -9,9 +9,18 @@ alias ll="ls -l"
 alias lt="ls -lt"
 alias lh="ls -lah"
 alias ls="ls --color=auto"
+alias la="ls -A"
 alias grep='grep --color=auto'
 
 alias youtube-dl-audio='youtube-dl --ignore-errors --output "%(title)s.%(ext)s" --extract-audio --audio-format mp3'
 
 alias bat="batcat"  
 alias fzf='fzf --preview="cat -n {}" --preview-window=right:40% | tr -d "\n" | xclip -sel clip'
+
+alias vifm="vifm ."
+
+# Git aliases
+alias ga="git add ."
+alias gs="git status"
+alias gcm="git commit -m "
+alias gpm="git push"
