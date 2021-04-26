@@ -3,8 +3,6 @@ colorscheme ron
 set nocompatible
 set number
 " set relativenumber
-set tabstop=2
-set autoindent
 " for highlighting current line 
 set cursorline
 set showcmd
@@ -33,7 +31,7 @@ autocmd BufWritePost *.tex !pdflatex <afile>
 call plug#begin()
 Plug 'preservim/NERDTree'
 Plug 'preservim/nerdcommenter'
-Plug 'frazrepo/vim-rainbow'
+" Plug 'frazrepo/vim-rainbow'
 Plug 'tpope/vim-surround'
 Plug 'mattn/emmet-vim'
 " Plug 'terryma/vim-multiple-cursors'
@@ -41,23 +39,22 @@ Plug 'mg979/vim-visual-multi', {'branch': 'master'}
 Plug 'jiangmiao/auto-pairs'
 Plug 'rust-lang/rust.vim'
 Plug 'ap/vim-css-color'
+Plug 'plasticboy/vim-markdown'
+Plug 'luochen1990/rainbow'
 call plug#end()
 
 syntax enable
 filetype indent on
+set autoindent
+set tabstop=2
 
 let g:NERDSpaceDelims = 1
 let g:NERDDefaultAlign = 'left'
 let g:NERDCommentEmptyLines = 1
+let g:rainbow_active = 1 
 
 vnoremap <C-c> :call NERDComment('x','toggle')<CR>
+nnoremap <C-c> v :call NERDComment('x','toggle')<CR>
 nnoremap <C-b> :NERDTreeToggle<CR>
 
-" inoremap ' '' <ESC>hi
-" inoremap " "" <ESC>hi
-" inoremap ( () <ESC>hi
-" inoremap { {} <ESC>hi
-" inoremap [ [] <ESC>hi
-" inoremap ` `` <ESC>hi
- 
 map <Space> :noh<cr>
