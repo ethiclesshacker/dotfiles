@@ -4,13 +4,13 @@ alias mv='mv -i'
 
 alias v="vim"
 
+alias ls="ls --color=auto"
 alias l="ls"
 alias ll="ls -l" 
 alias lt="ls -lt"
-alias lh="ls -lah"
-alias ls="ls --color=auto"
+alias lh="ls -lAh"
 alias la="ls -A"
-alias grep='grep --color=auto'
+alias grep='grep -P --color=auto'
 
 alias youtube-dl-audio='youtube-dl --ignore-errors --output "%(title)s.%(ext)s" --extract-audio --audio-format mp3'
 
@@ -23,4 +23,11 @@ alias vifm="vifm ."
 alias ga="git add ."
 alias gs="git status"
 alias gcm="git commit -m "
-alias gpm="git push"
+alias gp="git push"
+
+# Windscribe VPN
+# alias "wdc"= "windscribe connect"
+# alias "wdd"= "windscribe disconnect"
+
+# Lazy me
+alias p3="python3"
