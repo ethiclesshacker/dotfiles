@@ -1,6 +1,0 @@
-2021/04/22-23:56:44.434 a28 Reusing MANIFEST /home/aadityavs/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.instagram.com_0.indexeddb.leveldb/MANIFEST-000001
-2021/04/22-23:56:44.434 a28 Recovering log #15
-2021/04/22-23:56:44.467 a28 Reusing old log /home/aadityavs/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.instagram.com_0.indexeddb.leveldb/000015.log 
-2021/04/22-23:56:47.537 9f8 Level-0 table #21: started
-2021/04/22-23:56:47.558 9f8 Level-0 table #21: 1535031 bytes OK
-2021/04/22-23:56:47.570 9f8 Delete type=0 #15

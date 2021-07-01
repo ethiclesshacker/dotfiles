@@ -1,8 +1,0 @@
-2021/04/10-13:51:48.960 21b1 Reusing MANIFEST /home/aadityavs/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.icicilombard.com_0.indexeddb.leveldb/MANIFEST-000001
-2021/04/10-13:51:48.960 21b1 Recovering log #36
-2021/04/10-13:51:48.960 21b1 Reusing old log /home/aadityavs/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.icicilombard.com_0.indexeddb.leveldb/000036.log 
-2021/04/10-13:52:30.447 230f Level-0 table #41: started
-2021/04/10-13:52:30.447 230f Level-0 table #41: 0 bytes OK
-2021/04/10-13:52:30.450 230f Delete type=0 #36
-2021/04/10-13:52:30.450 230f Manual compaction at level-0 from (begin) .. (end); will stop at (end)
-2021/04/10-13:52:30.451 230f Manual compaction at level-1 from (begin) .. (end); will stop at (end)
